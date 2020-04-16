@@ -17,7 +17,7 @@ def generate_code():
 #generate the clues
 def generate_clues(code,user_guess):
     if user_guess == code:
-        return "code cracked"
+        return "code is cracked"
 
     clues = []
 
@@ -38,7 +38,7 @@ print("it will show *match* if number is allocated in correct position.")
 print("it will show *close* if number is present but not in correct position.")
 print("it will show *null* if guess is completely wrong")
 
-
+#new comment is here
 secret_code = generate_code()
 
 clue_report = []
