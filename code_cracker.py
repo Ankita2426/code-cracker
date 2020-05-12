@@ -36,7 +36,7 @@ print("welcome code breaker!")
 print("code consist of total 3 numbers")
 print("it will show *match* if number is allocated in correct position.")
 print("it will show *close* if number is present but not in correct position.")
-print("it will show *null* if guess is completely wrong")
+print("it will show *nope* if guess is completely wrong")
 
 #new comment is here
 secret_code = generate_code()
